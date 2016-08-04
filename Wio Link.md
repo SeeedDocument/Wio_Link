@@ -211,26 +211,43 @@ The guide covers:
 - Advanced User Guide
 - How to write module driver for Wio Link?
 
-# Advanced Tutorial Video
+# Advanced Tutorial
 If you have successfully controlled the grove-led with your smartphone, and want to try something more difficult and not that complicated, why not try this tutorial, after learning it, you will be able to  build a temperature and humidity monitor and light up the RGB Led strip with Wio Link.
 
 Before you start, please check if you have below devices on hand.
 
-- Led strip
-- Grove-Temperature_and_Humidity_Sensor
+- [Led strip](https://www.seeedstudio.com/s/led%20strip.html)
+- [Grove-Temperature and Humidity Sensor](https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)
 
 
-- Step1:Remove the Grove LED from the grove connector, plug the Led strip and Grove-temperature and humidity sensor to Wio Link and drag the same module to Wio Link in the App.
+- Step1:Remove the Grove LED from the grove connector, plug the Led strip to Wio Link and drag the same module to Wio Link in the App.
+- Update the firmware.
+
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/advance%20tutorial%20video.png)
+
+- Step2：plug the Grove-Temperature and Humidity Sensor to Wio Link and drag the same module to Wio Link in the App.
+- Update the firmware.
+
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/advance%20tutorial%20video%202.png)
+
+- Step3:View the APIs and read the temperature & humidity in your house.
+
+- Step4:Change RGB value to control the led strip.
+
+Because the Wio Link App read hex RGB value, RGB value need to be converted to hex value. If you want to know what is RGB value and the relationship between hex value, please visit  . If you just want to get - [ ] he hex value simply and fast, here I would like to recommend the website [RGB t0 Hex](http://www.rgbtohex.net/). Just by inputting RGB value for the 3 RGB elements(Red, Green, Blue), the website will converts the RGB value to hex very easily. Here is some example.
+- Input 255, 0, 0
+
+- Convert it, then you will get the hex value as, the color is Red.
 
 
-- Step2：click "UPDATE" on the top-right corner in the APP, after "Update Ok", view the APIs of your device, and have a try to light up the LED strip.
-
+!!!Note
+The RGB value you input should be any nature number between 0 and 255 (Including 0 and 255)
 
 
 # Resource
 ---
 - Hardware
-  - EAGLE Schematic files
+  - [EAGLE Schematic files](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio_Link_SCH_v1.0.rar)
   - EAGLE PCB file
   - Schematic files(pdf)
 - Software
