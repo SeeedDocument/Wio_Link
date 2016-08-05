@@ -219,8 +219,9 @@ If you have successfully controlled the grove-led with your smartphone, and want
 
 Before you start, please check if you have below devices on hand.
 
-- [Led strip](https://www.seeedstudio.com/s/led%20strip.html)
-- [Grove-Temperature and Humidity Sensor](https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)
+|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/RGB%20LED%20Strip.jpg)|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/grove-T%26H%20sensor.jpg)|
+|:---:|:---:|
+|[RGB Led strip](https://www.seeedstudio.com/s/led%20strip.html)|[Grove-Temperature and Humidity Sensor](https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)|
 
 
 - Step1: Remove the Grove LED from the grove connector, plug the Led strip to Wio Link and drag the same module to Wio Link in the App.
@@ -233,7 +234,7 @@ Before you start, please check if you have below devices on hand.
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/advance%20tutorial%20video%202.png)
 
-- Step3: View the APIs and read the temperature & humidity in your house. Below image shows the temperature change before and after holding the grove in hand. I increased the temperature by 1 celsuis. Try and see how you can change the temperature and humidity in your house.
+- Step3: View the APIs and read the temperature & humidity in your house. Below image shows the temperature change before and after holding the grove in hand. I increased the temperature by 1 Celsius. Try and see how you can change the temperature and humidity in your house.
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Celsuis%202%20pics.png)
 
@@ -260,6 +261,7 @@ You can also specific which part of the strip be lighted and give a special colo
 
 # Resource
 ---
+
 - Hardware
   - [EAGLE Schematic files](https://github.com/SeeedDocument/Wio_Link/raw/master/resource/Wio_Link_SCH_v1.0.rar)
   - EAGLE PCB file
