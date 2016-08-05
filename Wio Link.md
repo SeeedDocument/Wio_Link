@@ -3,7 +3,7 @@ What's the toughest part of building IoT applications? Someone says the jump wir
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/WioLink.png)
 
-In order to simplify all these steps, at the end of 2015, Seeed Studio initiated Wio Link on KickStarter, defined a new way of developing IoT applications. Wio Link is an ESP8266 SoC based open-source Wi-Fi development board, the best part of it is the associated platform that allows users to create IoT applications by virtualizing plug-n-play modules to RESTful APIs with mobile Apps. It means that there will be no hardware programming, no breadboard, no jumper wires, and no soldering, just by installing an App on your mobile phone, you are able to build a simple IoT project in 5 minutes.
+In order to simplify all these steps, at the end of 2015, Seeed Studio initiated Wio Link on [KickStarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search), defined a new way of developing IoT applications. Wio Link is an ESP8266 SoC based open-source Wi-Fi development board, the best part of it is the associated platform that allows users to create IoT applications by virtualizing plug-n-play modules to RESTful APIs with mobile Apps. It means that there will be no hardware programming, no breadboard, no jumper wires, and no soldering, just by installing an App on your mobile phone, you are able to build a simple IoT project in 5 minutes.
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/300px-Get_One_Now_Banner.png)
 # Features
@@ -45,17 +45,17 @@ In fact, we have already designed many projects in our [**recipe**](http://www.s
 
 
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Feed%20your%20pet%20button.jpg)
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Feed%20your%20pet%20button.jpg)](http://www.seeed.cc/project_detail.html?id=1066)
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Environmental%20Monitor.jpg)
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Environmental%20Monitor.jpg)](http://www.seeed.cc/A-website-to-see-the-environment-data-around-you--p-1069.html)
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/No%20Missed%20Call%20.jpg)
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/No%20Missed%20Call%20.jpg)](http://www.seeed.cc/project_detail.html?id=1059)
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Smart%20Plant%20Watering.jpg)
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Smart%20Plant%20Watering.jpg)](http://www.seeed.cc/Irrigation-Control-System-Based-on-Wio-Node-p-1274.html)
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Boss%20Key.jpg)
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Boss%20Key.jpg)](http://www.seeed.cc/project_detail.html?id=1077)
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Traffic%20light%20prompter.jpg)
+[![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Traffic%20light%20prompter.jpg)](http://www.seeed.cc/project_detail.html?id=1068)
 
 # Hardware Overview
 
@@ -63,18 +63,18 @@ In fact, we have already designed many projects in our [**recipe**](http://www.s
 
 |Part|Function|
 |---|---|
-MCU	|ESP8266
-Digital Port 0	|GPIO 14
-Digital Port 1|	GPIO 12
-Digital Port 2	|GPIO 13
-Analog Port	|A3
-UART Port|	Pin 1 & Pin 3
-I2C Port|	Pin 4 & Pin 5
-Status Light|Blue LED is the WiFi status indicator, Red LED indicates the working status
-Configure Button| To configure and manage your Wio Link
-Battery Holder|JST2.0
-Micro USB|To power the board or communicate to the PC
-Reset Button| To reset the MCU
+|MCU	|ESP8266|
+|Digital Port 0	|GPIO 14|
+|Digital Port 1|	GPIO 12|
+|Digital Port 2	|GPIO 13|
+|Analog Port	|A3|
+|UART Port|	Pin 1 & Pin 3|
+|I2C Port|	Pin 4 & Pin 5|
+|Status Light|Blue LED is the WiFi status indicator, Red LED indicates the working status
+|Configure Button| To configure and manage your Wio Link|
+|Battery Holder|JST2.0|
+|Micro USB|To power the board or communicate to the PC|
+|Reset Button| To reset the MCU|
 
 ### Status LEDs
 Near to the FUNCTION button there’re 2 status Leds, a blue one and a red one. The BLUE led is the network status indicating led. It has the following blink patterns:
@@ -105,8 +105,8 @@ Let us build a very basic LED application with Wio Link, in this application you
 
 |Wio Link|Grove - LED|Micro USB Cable|
 |:--------:|:-----------:|:---------------:|
-|![]()|![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Red%20LED.jpg)|![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/48cmUSBc.jpg)|
-|[GET ONE NOW](https://www.seeedstudio.com/Wio-Node-p-2637.html)|[GET ONE NOW](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)|[GET ONE NOW](http://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)|
+|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Wio%20link%20small%20image.jpg)|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Red%20LED.jpg)|![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/48cmUSBc.jpg)|
+|[GET ONE NOW](https://www.seeedstudio.com/Wio-Link-p-2604.html)|[GET ONE NOW](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)|[GET ONE NOW](http://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)|
 
 !!!NOTE
     * A smartphone is needed as well (Android OS version 4.1 or advanced, iOS version 7 or advanced)
@@ -135,7 +135,7 @@ Please pay attention to the server location, because wrong server location will 
 ### **STEP 3**: Connect Wio Link Wi-Fi AP
 - Push and hold the CONFIG button until the blue LED turns into breathing mode (i.e. blinking with fade in & fade out effect). It means that Wio Link has turned to configuration mode successfully and can be detected by the Wio App.
 
-![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/500px-Wio_Link_Grove_LED.JPG)
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/WioLink_Configure-middle.png)
 
 - Push "Add your first Device".
 - Choose Wio Link
@@ -165,7 +165,7 @@ Please pay attention to the server location, because wrong server location will 
 
 - Since you selected the Digital 0 port to connect with LED in the APP, you need to connect the real Grove-LED to Digital 0 port of Wio Link too.
 
-![](https://github.com/SeeedDocument/Wio_Link/blob/master/image/500px-Wio_Link_Grove_LED.JPG)
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Wio_Link_Grove_LED%20middle.JPG)
 
 ### **STEP 5**: Test application using APIs
 - Now that  you have successfully connect the LED to Wio Node, click "View API" to check the API of Wio Link
@@ -220,23 +220,23 @@ Before you start, please check if you have below devices on hand.
 - [Grove-Temperature and Humidity Sensor](https://www.seeedstudio.com/Grove-Temp%26Humi-Sensor-p-745.html)
 
 
-- Step1:Remove the Grove LED from the grove connector, plug the Led strip to Wio Link and drag the same module to Wio Link in the App.
+- Step1: Remove the Grove LED from the grove connector, plug the Led strip to Wio Link and drag the same module to Wio Link in the App.
 - Update the firmware.
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/advance%20tutorial%20video.png)
 
-- Step2：plug the Grove-Temperature and Humidity Sensor to Wio Link and drag the same module to Wio Link in the App.
+- Step2：Plug the Grove-Temperature and Humidity Sensor to Wio Link and drag the same module to Wio Link in the App.
 - Update the firmware.
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/advance%20tutorial%20video%202.png)
 
-- Step3:View the APIs and read the temperature & humidity in your house. Below image shows the temperature change before and after holding the grove in hand. I increased the temperature by 1 celsuis. Try and see how you can change the temperature and humidity in your house.
+- Step3: View the APIs and read the temperature & humidity in your house. Below image shows the temperature change before and after holding the grove in hand. I increased the temperature by 1 celsuis. Try and see how you can change the temperature and humidity in your house.
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Celsuis%202%20pics.png)
 
-- Step4:Change RGB value to control the led strip.
+- Step4: Control the light of Led strip by changing RGB value.
 
-Because the Wio Link App read hex RGB value, RGB value need to be converted to hex value. If you want to know what is RGB value and the relationship between hex value, please visit  . If you just want to get the hex value simply and fast, here I would like to recommend the website [RGB t0 Hex](http://www.rgbtohex.net/). Just by inputting RGB value for the 3 RGB elements(Red, Green, Blue), the website will converts the RGB value to hex very easily. Here is some example.
+Because the Wio Link App read hex RGB value, RGB value need to be converted to hex value. Here I would like to recommend the website [RGB t0 Hex](http://www.rgbtohex.net/). Just by inputting RGB value for the 3 RGB elements (Red, Green, Blue), the website will converts the RGB value to hex very easily. Here is some example.
 - Input 255, 0, 0
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/RGB%20255%200%200.png)
@@ -252,7 +252,7 @@ Then input how many Leds you want to lighten and the hex value in the app, here 
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Wio%20link%20control%20led%20strip.png)
 
-You can also specific which part of the strip be lighted and give a special color to it, or even make like blink in rainbow mode. A lot of amazing functions are waitting for your exploration!
+You can also specific which part of the strip be lighted and give a special color to it, or even make like blink in rainbow mode. A lot of amazing functions are waiting for your exploration!
 
 
 # Resource
