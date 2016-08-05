@@ -230,18 +230,29 @@ Before you start, please check if you have below devices on hand.
 
 ![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/advance%20tutorial%20video%202.png)
 
-- Step3:View the APIs and read the temperature & humidity in your house.
+- Step3:View the APIs and read the temperature & humidity in your house. Below image shows the temperature change before and after holding the grove in hand. I increased the temperature by 1 celsuis. Try and see how you can change the temperature and humidity in your house.
+
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Celsuis%202%20pics.png)
 
 - Step4:Change RGB value to control the led strip.
 
-Because the Wio Link App read hex RGB value, RGB value need to be converted to hex value. If you want to know what is RGB value and the relationship between hex value, please visit  . If you just want to get - [ ] he hex value simply and fast, here I would like to recommend the website [RGB t0 Hex](http://www.rgbtohex.net/). Just by inputting RGB value for the 3 RGB elements(Red, Green, Blue), the website will converts the RGB value to hex very easily. Here is some example.
+Because the Wio Link App read hex RGB value, RGB value need to be converted to hex value. If you want to know what is RGB value and the relationship between hex value, please visit  . If you just want to get the hex value simply and fast, here I would like to recommend the website [RGB t0 Hex](http://www.rgbtohex.net/). Just by inputting RGB value for the 3 RGB elements(Red, Green, Blue), the website will converts the RGB value to hex very easily. Here is some example.
 - Input 255, 0, 0
 
-- Convert it, then you will get the hex value as, the color is Red.
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/RGB%20255%200%200.png)
 
+- Convert it, then you will get the hex value as FF0000, the color is Red.
+
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/FF0000.png)
 
 !!!Note
 The RGB value you input should be any nature number between 0 and 255 (Including 0 and 255)
+
+Then input how many Leds you want to lighten and the hex value in the app, here my Led strip has 30 Leds, so I lighten all of them.
+
+![](https://github.com/SeeedDocument/Wio_Link/raw/master/image/Wio%20link%20control%20led%20strip.png)
+
+You can also specific which part of the strip be lighted and give a special color to it, or even make like blink in rainbow mode. A lot of amazing functions are waitting for your exploration!
 
 
 # Resource
@@ -387,3 +398,9 @@ Here's the list of supported Groves so far:
 - [Grove - Recorder](http://www.seeedstudio.com/wiki/Grove_-_Recorder)
 
 - [Grove - Ultrasonic Ranger](http://www.seeedstudio.com/wiki/Grove_-_Ultrasonic_Ranger)
+
+
+# Help us to make it better
+---
+
+<iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/GSKRQYF" frameborder="0"></iframe>
